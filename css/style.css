@@ -1,0 +1,148 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+    
+}
+
+
+/*ENCABEZADO*/
+header{
+    display: flex;
+    background-color:#9e7cb4;
+    padding: 50px; 
+    
+}
+
+.logo{
+    display: flex;
+
+}
+
+.logo img{
+    height: 120px;
+}
+
+header h1{
+    color: white;
+  
+    
+}
+
+/*NAVEGACIÓN*/
+
+nav{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/*CONTENIDO*/
+
+/*IMÁGENES*/
+
+.imagen{
+    padding-bottom: 120px;
+}
+     
+.imagen h1, .imagen h2{
+    text-align: center;
+}
+
+    /*Imágenes fuente*/
+
+.imagen-fuente{
+    display: grid;
+    grid-column: auto auto;
+    justify-items: center;
+    background-color: rgba(230,230,230,0.7); 
+    box-shadow: 10px 10px 10px -10px rgba(168,168,168,1);
+    
+}
+
+.imagen-fuente img{
+    width: 30%;
+    padding-bottom: 50px;   
+}
+
+    /*Composición*/
+.composicion{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;   
+    background-color: rgba(230,230,230,0.7); 
+    box-shadow: 10px 10px 10px -10px rgba(168,168,168,1);
+    
+}
+
+.composicion img{
+    width: 40%;
+    padding-bottom: 50px;
+}
+
+    /*Imagen responsiva*/
+
+.imagen-responsiva {
+    display: grid;
+    justify-items: center;
+    background-color: rgba(230,230,230,0.7); 
+    box-shadow: 10px 10px 10px -10px rgba(168,168,168,1);
+    padding-bottom: 50px;
+        
+}
+
+/*AUDIO*/
+
+.audio{
+    display: flex;
+    flex-direction: column;
+    background-color: #707245;
+    color: aliceblue;
+    padding: 80px;
+    padding-bottom: 100px;
+    
+}
+.audio h1, h2, p{
+    text-align: center;
+}
+
+audio{
+    width: 500px;
+    align-self: center;
+    
+}
+
+
+/*VIDEO*/
+
+.video{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.video h1, h2, p{
+    text-align: center;
+}
+
+video{
+    width: 800px;
+    display: flex;
+    align-self: center;
+    
+}
+
+
+
+
+
